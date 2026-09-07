@@ -1,0 +1,99 @@
+
+[
+{
+  "question": "Was ist zu tun, wenn ein Pseudocode mehrere mögliche Programmpfade enthält?",
+  "answer": "Für jede Verzweigung die Bedingung anhand der aktuellen Werte auswerten und nur den zutreffenden Pfad verfolgen."
+},
+{
+  "question": "Wie können Schleifen bei einem Schreibtischtest nachvollziehbar abgearbeitet werden?",
+  "answer": "Durch Durchnummerieren der Durchläufe und Notieren der Variablenwerte nach jedem einzelnen Durchlauf."
+},
+{
+  "question": "Wie können verschachtelte Kontrollstrukturen bei einem Schreibtischtest ausgewertet werden?",
+  "answer": "Von außen nach innen, wobei innere Strukturen für jeden Durchlauf der äußeren Struktur vollständig ausgewertet werden."
+},
+{
+  "question": "Wie kann überprüft werden, ob eine Bedingung wahr oder falsch ist?",
+  "answer": "Durch Einsetzen der aktuellen Variablenwerte in die Bedingung und Auswerten des Vergleichs."
+},
+{
+  "question": "Wie kann anhand eines Pseudocodes der Wert einer Ausgabe bestimmt werden?",
+  "answer": "Durch Schreibtischtest bis zur Ausgabeanweisung und Ablesen des zu diesem Zeitpunkt aktuellen Variablenwerts."
+},
+{
+  "question": "Wie kann anhand eines Pseudocodes die Anzahl der Schleifendurchläufe bestimmt werden?",
+  "answer": "Durch Zählen, wie oft die Schleifenbedingung beim Schreibtischtest als wahr ausgewertet wird."
+},
+{
+  "question": "Wie kann anhand eines Pseudocodes der endgültige Wert einer Variable bestimmt werden?",
+  "answer": "Durch vollständigen Schreibtischtest bis zum Programmende und Ablesen des letzten zugewiesenen Werts."
+},
+{
+  "question": "Wie kann ein Anwendungsfalldiagramm anhand einer textlichen Aufgabenstellung erstellt werden?",
+  "answer": "Indem Akteure (handelnde Personen/Systeme) und Use Cases (genannte Funktionen) aus dem Text extrahiert und mit passenden Beziehungen verbunden werden."
+},
+{
+  "question": "Wie können aus einer textlichen Beschreibung die Akteure eines Anwendungsfalldiagramms ermittelt werden?",
+  "answer": "Durch Identifikation aller Personen, Rollen oder externen Systeme, die mit dem System interagieren."
+},
+{
+  "question": "Wie können aus einer textlichen Beschreibung die Use Cases eines Anwendungsfalldiagramms ermittelt werden?",
+  "answer": "Durch Identifikation aller genannten Funktionen/Tätigkeiten, die das System für die Akteure ausführt (meist Verben)."
+},
+{
+  "question": "Wie kann aus einer Aufgabenstellung erkannt werden, ob eine Assoziation erforderlich ist?",
+  "answer": "Wenn ein Akteur direkt an einem Use Case beteiligt ist bzw. ihn auslöst."
+},
+{
+  "question": "Wie kann aus einer Aufgabenstellung erkannt werden, ob eine Include-Beziehung erforderlich ist?",
+  "answer": "Wenn ein Teilablauf bei jeder Ausführung eines Use Case zwingend mit erfolgt."
+},
+{
+  "question": "Wie kann aus einer Aufgabenstellung erkannt werden, ob eine Extend-Beziehung erforderlich ist?",
+  "answer": "Wenn eine Zusatzfunktion nur unter bestimmten, im Text genannten Bedingungen optional stattfindet."
+},
+{
+  "question": "Wie kann aus einer Aufgabenstellung erkannt werden, ob eine Vererbung erforderlich ist?",
+  "answer": "Wenn mehrere Akteure oder Use Cases gemeinsame Eigenschaften/Abläufe haben, die sich nur in Details unterscheiden."
+},
+{
+  "question": "Wie kann aus einer Aufgabenstellung eine geeignete Systemgrenze bestimmt werden?",
+  "answer": "Indem das im Text beschriebene System (z. B. „die Software“, „die Anwendung“) identifiziert und alle zugehörigen Use Cases eingeschlossen werden."
+},
+{
+  "question": "Wie kann aus einer Aufgabenstellung ein geeigneter Systemname bestimmt werden?",
+  "answer": "Aus der im Text genannten Bezeichnung des Systems bzw. der beschriebenen Anwendung."
+},
+{
+  "question": "Wie kann überprüft werden, ob ein vollständiges Anwendungsfalldiagramm fachlich korrekt ist?",
+  "answer": "Indem geprüft wird, ob alle Akteure, Use Cases und Beziehungen aus dem Text abgebildet sind und die Notation korrekt verwendet wurde."
+},
+{
+  "question": "Wie kann ein fehlerhaftes Klassendiagramm systematisch analysiert werden?",
+  "answer": "Klasse für Klasse und Beziehung für Beziehung auf korrekte Notation, Richtung und Sichtbarkeit prüfen."
+},
+{
+  "question": "Wie kann eine fehlerhafte UML-Beziehung erkannt werden?",
+  "answer": "Wenn Linienart, Pfeilspitze oder Richtung nicht zur fachlich beschriebenen Beziehung passen."
+},
+{
+  "question": "Wie kann eine falsche Pfeilrichtung in einem UML-Diagramm erkannt werden?",
+  "answer": "Indem geprüft wird, ob der Pfeil vom spezielleren/abhängigen zum allgemeineren/übergeordneten Element zeigt."
+},
+{
+  "question": "Wie kann eine falsche Darstellung einer Vererbung erkannt werden?",
+  "answer": "Wenn statt einer durchgezogenen Linie mit offenem Dreieck eine andere Linienart/Pfeilspitze verwendet wurde."
+},
+{
+  "question": "Wie kann eine falsche Darstellung einer Implementierung erkannt werden?",
+  "answer": "Wenn statt einer gestrichelten Linie mit offenem Dreieck eine durchgezogene Linie verwendet wurde."
+},
+{
+  "question": "Wie kann eine fehlerhafte Sichtbarkeit in einem Klassendiagramm erkannt werden?",
+  "answer": "Wenn ein Attribut, das laut Kapselungsprinzip privat sein sollte, als public gekennzeichnet ist (oder umgekehrt)."
+},
+{
+  "question": "Wie kann eine fehlende Kapselung in einem Klassendiagramm erkannt werden?",
+  "answer": "Wenn Attribute public sind, obwohl passende Getter/Setter vorhanden sind, was auf eigentlich benötigte private Sichtbarkeit hindeutet."
+}
+]
